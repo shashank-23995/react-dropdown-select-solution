@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#root {
+  margin: 20px auto;
+  max-width: 350px;
+}
+
+.styledInput {
+  margin: 0 0 0 10px;
+  height: 23px !important;
+  color: #0071dc;
+  background: #fff;
+  border: 1px solid #0071dc;
+  border-radius: 3px;
+  padding: 13px 10px;
+  width: 70px;
+}
+
+.StyledHtmlSelect {
+  padding: 0;
+  margin: 0 0 0 10px;
+  height: 23px !important;
+  color: #0071dc;
+  background: #fff;
+  border: 1px solid #0071dc;
+}
+
+.styledButton {
+  background: none;
+  border: 1px solid #555;
+  color: #555;
+  border-radius: 3px;
+  margin: 10px 10px 0;
+  padding: 3px 5px;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+.styledButton.clear {
+  color: tomato;
+  border: 1px solid tomato;
+}
+
+.styledButton :hover {
+  border: 1px solid deepskyblue;
+  color: deepskyblue;
+}
+
+.ItemLabel {
+  margin: 5px 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons.div {
+  margin: 10px 0 0 10px;
+  font-weight: 600;
+}
+
+.Items {
+  overflow: auto;
+  min-height: 10px;
+  max-height: 200px;
+}
+
+.Item {
+  display: flex;
+  margin: 10px;
+  align-items: baseline;
+  cursor: pointer;
+  border-bottom: 1px dotted transparent;
+}
+
+.Item:hover {
+  border-bottom: 1px dotted #ccc;
+}
+
+.SearchAndToggle {
+  display: flex;
+  flex-direction: column;
+}
+
+.SearchAndToggle.input {
+  margin: 10px 10px 0;
+  line-height: 30px;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.SearchAndToggle.input:focus {
+  outline: none;
+  border: 1px solid;
+}
